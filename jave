@@ -1,0 +1,45 @@
+import java.util.Scanner;
+public class Lunch {
+
+	private static Scanner input;
+
+	public static void main(String[] args) {
+		input = new Scanner(System.in);
+		int thirsty;
+		int thirsty2;
+		
+		System.out.println("Hungry");
+		System.out.println("Get in Line");
+		System.out.print("Are you thirsty? 1=Yes or 2=No");
+		thirsty = input.nextInt();
+		
+		if (thirsty == 2)
+			{	
+		System.out.println("You got some water");
+		System.out.println("You bought lunch");
+		System.out.println("You ate your lunch and drank your coke");
+		System.out.println("You retuned the tray");
+		System.out.println("You then left...");}
+		
+		if (thirsty == 1)
+			System.out.println("Did you eat breakfast? 1=Yes or 2=No");
+		thirsty2 = input.nextInt();
+		
+		if (thirsty2 == 1){
+			System.out.println("You bought a diet coke");
+		System.out.println("You bought lunch");
+		System.out.println("You ate your lunch and drank your diet coke");
+		System.out.println("You retuned the tray");
+		System.out.println("You then left...");
+		System.out.println("You later died from expired diet coke.");
+	}
+		else if (thirsty2 == 2){
+			System.out.println("You bought a coke");
+			System.out.println("You bought lunch");
+			System.out.println("You ate your lunch and drank your coke");
+			System.out.println("You retuned the tray");
+			System.out.println("You then left...");
+			System.out.println("You get a bad case of the runs from the coke.");
+	}
+	}
+	}
